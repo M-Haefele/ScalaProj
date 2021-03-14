@@ -1,0 +1,36 @@
+Project team: 
+Matt Haefele and Muhammad Farooq
+
+Project topic:
+Semantic analytic detection of false information on Twitter surrounding election legitimacy 
+
+
+Contributions/innovations:
+Classifying twitter corpuses into various semantic categories, and determining factual validity or authenticity. Compared against a training/control set of known valid information surrounding the election. Categorizing various levels of misinformation based on Natural Language Processing and algorithmic design. Generate data model that demonstrates the degree of validity and legitimacy of twitter posts.
+
+
+Data Collection Plan:
+Develop a control data set which consists of verifiable election integrity authenticators, both internal to the US and international observers. Mine tweets during a heightened window of election result discussion(several months leading up to capitol riots). After aggregating both data sets, classify the semantic content of novel election claims against the control group, and determine validity of claims using Natural Language Processing toolkits. 
+
+Tentative Language Framework:
+We will be electing to use Python for this project due to its affinity for data science. We have discovered some applicable toolkits and libraries which will streamline the mining of social media posts. They are as follows:
+
+-NLTK
+The Natural Language Toolkit (NLTK) is an open source Python library for Natural Language Processing.   
+
+-Tweepy
+Python library which allows access to the Twitter API.
+
+
+
+Timeline:
+
+March 6th - Collected 2 datasets(authentic vs end-user posts)
+March 13th - Python program outline. Pseudo-code or algorithmic design for text classification
+March 20th - Authentic data set NLP.
+March 27th - End-user data set NLP.
+April 3rd - Data visualization or analytics
+April 10th/17th - Consolidate program and toolkits into repository. Generate report
+
+
+
